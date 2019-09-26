@@ -111,7 +111,7 @@ static int read_fms_packet (const DS_String* data)
      *   should return 1 (considered as "true" in C), otherwise, just
      *   return 0 if you find any error
      */
-    return 0;
+    return 1;
 }
 
 static int read_radio_packet (const DS_String* data)
@@ -129,7 +129,7 @@ static int read_radio_packet (const DS_String* data)
      *   should return 1 (considered as "true" in C), otherwise, just
      *   return 0 if you find any error
      */
-    return 0;
+    return 1;
 }
 
 static int read_robot_packet (const DS_String* data)
@@ -147,7 +147,7 @@ static int read_robot_packet (const DS_String* data)
      *   should return 1 (considered as "true" in C), otherwise, just
      *   return 0 if you find any error
      */
-    return 0;
+    return 1;
 }
 
 //----------------------------------------------------------------------------//
